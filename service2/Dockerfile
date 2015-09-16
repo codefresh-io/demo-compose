@@ -1,5 +1,5 @@
 from node
-COPY . /src
+COPY ./service2 /src
 WORKDIR /src
 RUN npm install
 CMD npm start
